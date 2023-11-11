@@ -7,12 +7,19 @@
   </head>
   <body>
     <script>
-      // Function
-      var username = prompt("Enter User Name");
-      function printUserName(user) {
-        document.write(`User Name : ${username}`);
-      }
-      printUserName(username);
+      // JS Object
+
+      var myPc = {
+        brand: "asus",
+        screen: '17 "',
+        isLaptop: true,
+        ram: "16 GB",
+        processor: "i7",
+        isSSD: true,
+        disk: "1.25 TB",
+      };
+
+      document.write(myPc.ram);
     </script>
   </body>
 </html>
