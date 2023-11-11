@@ -7,13 +7,12 @@
   </head>
   <body>
     <script>
-      // while loop
-
-      i = 0;
-      do {
-        document.write(i + "<button>while loop</button><br/>");
-        i++;
-      } while (i <= 3);
+      // Function
+      var username = prompt("Enter User Name");
+      function printUserName(user) {
+        document.write(`User Name : ${username}`);
+      }
+      printUserName(username);
     </script>
   </body>
 </html>
