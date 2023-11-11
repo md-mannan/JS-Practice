@@ -16,8 +16,13 @@
         "Crocaries",
         "Grocery",
       ];
-
-      document.write(category[0]);
+      // var i;
+      // for (i = 0; i < category.length; i++) {
+      //   document.write(`${i}.` + category[i] + "<br/>");
+      // }
+      for (var item in category) {
+        document.write(`${item}.` + category[item] + "<br/>");
+      }
     </script>
   </body>
 </html>
