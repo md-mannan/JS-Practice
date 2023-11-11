@@ -7,54 +7,13 @@
   </head>
   <body>
     <script>
-      var marks;
-      marks = prompt("Enter Your Marks:");
-      //     if(marks <=100 && marks >=80){
-      //         document.write("Your Result is A+")
-      //     }
-      //       else if (marks <= 79 && marks >=70) {
-      //             document.write("Your Result is A")
-      //         }
-      //         else if (marks <= 69 && marks >=60) {
-      //         document.write("Your Result is A-")
-      //     }
-      //        else if (marks <= 59 && marks >=50) {
-      //         document.write("Your Result is B")
-      //     }
-      //        else if (marks <= 49 && marks >=40) {
-      //         document.write("Your Result is C")
-      //     }
-      //        else if (marks <= 39 && marks >=33) {
-      //         document.write("Your Result is D")
-      //     }
+      // for loop
 
-      //    else{
-      //      document.write("Your Result is Fail")
-      //    }
-
-      switch (true) {
-        case marks <= 100 && marks >= 80:
-          document.write("Your Result is A+");
+      for (i = 0; i <= 10; i++) {
+        if (i === 5) {
           break;
-
-        case marks <= 79 && marks >= 70:
-          document.write("Your Result is A-");
-          break;
-        case marks <= 69 && marks >= 60:
-          document.write("Your Result is A");
-          break;
-        case marks <= 59 && marks >= 50:
-          document.write("Your Result is B");
-          break;
-        case marks <= 49 && marks >= 40:
-          document.write("Your Result is C");
-          break;
-        case marks <= 39 && marks >= 33:
-          document.write("Your Result is D");
-          break;
-
-        default:
-          document.write("Your Result is Fail");
+        }
+        document.write("<button>for loop</button><br/>");
       }
     </script>
   </body>
